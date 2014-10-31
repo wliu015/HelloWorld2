@@ -7,10 +7,10 @@ sleep 10s
 ./test
 case $? in
         0) echo "Okay."
-           exit 0
+           exit 2
                 ;;
         *) echo "Error."
-           exit 0
+           exit 2
                 ;;
 esac
 
